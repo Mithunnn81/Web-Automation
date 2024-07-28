@@ -13,8 +13,6 @@ public class LeaveApplication extends BaseDriver {
 		Driver.get("https://smart-hrms.waltonbd.com/hrms/login");
 		Thread.sleep(5000);
 		
-		
-		
 		WebElement userName = Driver.findElement(By.xpath("//form[1]/div[1]/div[1]/input[1]"));
 		userName.sendKeys("A-17517");
 		Thread.sleep(3000);
